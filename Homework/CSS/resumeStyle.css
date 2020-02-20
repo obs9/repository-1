@@ -1,0 +1,43 @@
+.box
+{
+  width: 500px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 60px;
+
+  border: solid black;
+}
+
+.headers
+{
+  text-align: center;
+  font-family:'Raleway'
+}
+
+.Opope
+{
+display: block;
+margin: auto;
+
+}
+
+li
+{
+  color: rgb(161, 172, 33);
+}
+
+li a
+{
+  color:rgb(12, 140,168) ;
+  text-decoration: none;
+}
+
+li a:hover
+{
+  font-size: 45px;
+}
+
+
+.text3
+  font-family: 'Raleway';
+}

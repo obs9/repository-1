@@ -1,90 +1,101 @@
 <!DOCTYPE html>
 <!--This is a HTML 5-->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Basic HTMl</title>
-    <meta name="author:" content="Liv">
-  </head>
+<head>
+<meta charset="utf-8">
+<title>Basic HTML</title>
+<!-- this is the meta data -->
+<meta name="author" content="Olivia Sullivan"
+<meta name="description" content="Basic HTML example">
+<meta name="keywords" content="HTML, JS, CSS, Basic example">
+<link rel="stylesheet" href="CSS/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+  <!-- This is the body of my website -->
   <body>
-    <<header>
-      <<nav>
+      <!-- This is my Header -->
+      <header>
+        <nav class="navigation" >
+          <ul class="horizontaLine">
+            <li> <a href= "Class6-1/transitions.html">Class 6.1 <a/> </li>
+            <li>  <a href="https://www.apple.com">Apple</a>  </li>
+            <li>  <a href="http://guzmanj.com">  Guzman  </a>   </li>
+            <li> <a href="https://facebook.com">Facebook</a> </li>
+          </ul>
+        </nav>
+      </header>
+
+
+    <!-- This is my sidebar -->
+      <aside class="sidebar">
+        <h3>SideBar</h3>
         <ul>
-          <li><a href="https://www.apple.com">Apple</a></li>
-          <li><a href="https://www.facebook.com">Facebook</a></li>
-          <li><a href="https://www.instagram.com">Instagram</a></li>
-
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
         </ul>
-      </nav>
+        <ol>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ol>
+      </aside>
 
+      <!-- div is a box used to put our elements and give it style using css -->
+      <!-- A class can be used over and over again in one html document -->
+      <div class="container">
+        <section>
+          <h1>Title</h1>
+          <!-- We use the article tag for articles magazines, posts, etc. -->
+          <article class="article">
+            <h2>Subtitle</h2>
+            <p>
+              <!-- This is for best practices -->
+              <strong>"Lorem ipsum dolor sit amet,</strong>
+              <em>consectetur adipiscing elit, sed do eiusmod</em>
+              <!-- Have the same effect as the one above -->
+              <b>incididunt ut labore et dolore magna aliqua.</b>
+              <i>incididunt ut labore et dolore magna aliqua.</i>
+                Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+               nulla pariatur.
+            </p>
+          <img id="dog" src="img/Bulldog.jpg" alt="English Bulldog" width="400">
+          </article>
+        </section>
+      </div>
 
-    </header>
-    <section>
+      <section>
+        <h1>Contact Information</h1>
+        <address>
+          <ul>
+            <li>Name: Olivia Sullivan</li>
+            <li>Phone number: 203-952-9647</li>
+            <li>email: obs9@miami.edu</li>
+          </ul>
+        </address>
+      </section>
 
-
-    <aside>
-    <ul>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-    </ul>
-    <ol>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-    </ol>
-    </aside>
-
-
-      <article>
-        <h1>Title</h1>
-        <h2>Subtitles</h2>
-
-
-        <p> Hello, this is simply dummy text of the printing ab  nd type
-          <strong>is simply dummy text of</strong>
-          <em>is simply dummy text of</em>
-          <b></b>
-          <i></i>
-
-          setting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown
-          printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-          of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-           of Lorem Ipsum.
-         </p>
-
-           <img src="IMG/fox.jpg" alt="fox" width="400px">
-
-
-      </article>
-
-      <!-- This a comment so I dont get lost -->
-
-    </section>
-
-    <section>
-      <address>
-        <ul>
-          <li>Name: Liv Sullivan</li>
-          <li>Phone Number: obs9@miami.edu</li>
-            <li>University of Miami School of Communication</li>
-        </ul>
-      </address>
-
-    </section>
-    <table>
-      <tr>
-        <th>Human Years</th>
-        <th>Dog Years</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>7</td>
-      </tr>
-    </table>
+      <table>
+        <tr>
+          <!-- this are table headers -->
+          <th>Human Years</th>
+          <th>Dog Years</th>
+        </tr>
+        <tr>
+          <!-- this are table cells -->
+          <td>1</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>14</td>
+        </tr>
+      </table>
 
 
 
   </body>
+
 </html>
