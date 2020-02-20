@@ -182,7 +182,8 @@ transition-timing-function: ease-in-out;
 {
   margin: auto;
   height: 600px;
-  background-color: pink;
+  background-color: rgb(164, 145, 219);
+  transition-timing-function: ease-in;
 }
 .cardBase
 {
