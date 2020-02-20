@@ -169,9 +169,12 @@ transition-timing-function: ease-in-out;
   float: left;
   width: 42%;
 }
-.cardLeft img
+
+.cardLeft flatCharacters
 {
   width: 100%;
+  display: block;
+  margin: auto;
 }
 .cardRight
 {
