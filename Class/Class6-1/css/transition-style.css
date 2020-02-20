@@ -197,6 +197,7 @@ transition-timing-function: ease-in-out;
 {
   width: 50%;
   margin-top: 100%;
+  transition-timing-function: ease-in;
 }
 
 /* You should put your transition code here: */
