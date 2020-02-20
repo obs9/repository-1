@@ -170,7 +170,8 @@ transition-timing-function: ease-in-out;
   width: 42%;
 }
 
-.cardLeft flatCharacters
+
+.flatCharacters
 {
   width: 100%;
   display: block;
@@ -200,7 +201,10 @@ transition-timing-function: ease-in-out;
 {
   width: 50%;
   margin-top: 100%;
-  transition-timing-function: ease-in;
+}
+.translate
+    transition-duration: 1000ms;
+    transition-property: transform;
 }
 
 /* You should put your transition code here: */
