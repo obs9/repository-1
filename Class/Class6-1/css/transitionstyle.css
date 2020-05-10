@@ -202,9 +202,14 @@ transition-timing-function: ease-in-out;
   width: 50%;
   margin-top: 100%;
 }
-.translate
+.animation
+{
     transition-duration: 1000ms;
     transition-property: transform;
+}
+.animation:hover
+{
+  transform: rotate(90deg);
 }
 
 /* You should put your transition code here: */
@@ -212,20 +217,3 @@ transition-timing-function: ease-in-out;
 
 
 /* ---------------------------------- ENDDEBUG SECTION ------------------------------------------- */
-
-.safe
-{
-  width: 150px;
-  height: 150px;
-  background-color: gray;
-  border:20px solid #999;
-}
-.translate
-{
-  transition-duration: 1000ms;
-  transition-property: transform;
-}
-.safe:hover .translate
-{
-    transform: translate(250px, 250px);
-} */
